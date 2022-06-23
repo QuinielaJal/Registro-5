@@ -1,1 +1,402 @@
-var _0xd6be=["\x5F","\x71\x75\x61\x6E\x74\x69\x74\x79\x31\x30\x6D","\x67\x65\x74\x49\x74\x65\x6D","\x61\x6C\x69\x61\x73\x4D","\x64\x69\x73\x70\x6C\x61\x79","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6F\x66\x66\x73\x65\x74\x57\x69\x64\x74\x68","\x71\x75\x69\x6E\x69\x65\x6C\x61","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x68\x65\x69\x67\x68\x74","\x73\x74\x79\x6C\x65","\x70\x78","\x74\x65\x78\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\xA0\xA0","\x6A\x6F\x69\x6E","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x2E\x62\x6F\x74\x6F\x6E\x65\x6E\x76\x69\x61\x72\x20\x73\x70\x61\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x72\x65\x73\x75\x6C\x74\x73\x31\x30\x6D","\x2A","\x73\x70\x6C\x69\x74","\x69\x6E\x73\x65\x72\x74\x52\x6F\x77","\x4C","\x45","\x56","\x73\x6C\x69\x63\x65","\x69\x6E\x73\x65\x72\x74\x43\x65\x6C\x6C","\x77\x69\x64\x74\x68","\x36\x2E\x33\x25","\x6C\x65\x6E\x67\x74\x68","\x66\x6F\x6E\x74\x53\x69\x7A\x65","\x73\x6D\x61\x6C\x6C","\x78\x2D\x73\x6D\x61\x6C\x6C","\x3C\x70\x72\x65\x3E","\x3C\x2F\x70\x72\x65\x3E","\x6F\x76\x65\x72\x66\x6C\x6F\x77","\x68\x69\x64\x64\x65\x6E","\x6F\x76\x65\x72\x66\x6C\x6F\x77\x59","\x62\x6F\x72\x64\x65\x72","\x6E\x6F\x6E\x65","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x63\x65\x6C\x6C\x6E\x61\x6D\x65","\x73\x63\x72\x6F\x6C\x6C\x54\x6F","\x78\x78\x2D\x73\x6D\x61\x6C\x6C","\x3C\x69\x6F\x6E\x2D\x69\x63\x6F\x6E\x20\x6E\x61\x6D\x65\x3D\x22\x63\x6C\x6F\x73\x65\x2D\x63\x69\x72\x63\x6C\x65\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x72\x67\x62\x28\x31\x32\x30\x2C\x30\x2C\x30\x29\x3B\x22\x3E\x3C\x2F\x69\x6F\x6E\x2D\x69\x63\x6F\x6E\x3E","\x69\x64","\x78","\x64\x65\x6C\x65\x74\x65\x72","\x63\x6C\x69\x63\x6B","\x63\x6C\x6F\x6E\x65\x4E\x6F\x64\x65","\x72\x65\x70\x6C\x61\x63\x65\x57\x69\x74\x68","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x74\x6F\x74\x61\x6C","\x54\x6F\x74\x61\x6C\x3A\x20\x24","\x0A","\x74\x72","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x37\x25","\x20\x28","\x29","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x43\x6F\x6C\x6F\x72","","\x72\x67\x62\x28\x32\x35\x30\x2C\x20\x33\x30\x2C\x20\x33\x30\x29","\x6C\x61\x72\x67\x65\x72","\x70\x61\x64\x64\x69\x6E\x67","\x32\x33\x70\x78","\x78\x2D\x6C\x61\x72\x67\x65","\x32\x30\x70\x78","\x73\x65\x74\x49\x74\x65\x6D","\x76\x61\x6C\x75\x65","\x6E\x6F\x6D\x62\x72\x65","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x44\x65\x62\x65\x73\x20\x6C\x6C\x65\x6E\x61\x72\x20\x74\x6F\x64\x61\x73\x20\x6C\x61\x73\x20\x63\x61\x73\x69\x6C\x6C\x61\x73","\x44\x65\x62\x65\x73\x20\x65\x6C\x65\x67\x69\x72\x20\x75\x6E\x20\x6E\x6F\x6D\x62\x72\x65","\x66\x6F\x63\x75\x73","\x45\x6E\x76\xED\x61\x20\x74\x75\x73\x20\x71\x75\x69\x6E\x69\x65\x6C\x61\x73\x20\x72\x65\x67\x69\x73\x74\x72\x61\x64\x61\x73\x20\x61\x6E\x74\x65\x73\x20\x64\x65\x20\x63\x61\x70\x74\x75\x72\x61\x72\x20\x6D\xE1\x73","\x2E\x71\x75\x69\x6E\x69\x65\x6C\x61\x20\x73\x70\x61\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x63\x6F\x73\x74\x6F","\x43\x6F\x73\x74\x6F\x3A\x20\x24\x30","\x6E\x75\x6D\x71\x75\x69\x6E\x69\x65\x6C\x61\x73","\x30\x20\x51\x75\x69\x6E\x69\x65\x6C\x61\x28\x73\x29","\x6E\x75\x6C\x6C","\x63\x68\x65\x63\x6B\x63\x6F\x6D\x62\x69\x6E\x61\x63\x69\x6F\x6E\x65\x73","\x72\x67\x62\x28\x30\x2C\x31\x31\x37\x2C\x32\x35\x35\x29","\x62\x6C\x61\x63\x6B\x20\x73\x6F\x6C\x69\x64\x20\x31\x70\x78","\x63\x6F\x6C\x6F\x72","\x77\x68\x69\x74\x65","\x72\x67\x62\x28\x32\x35\x35\x2C\x32\x35\x35\x2C\x32\x35\x35\x2C\x30\x2E\x33\x35\x29","\x23\x37\x37\x37\x37\x37\x37\x20\x73\x6F\x6C\x69\x64\x20\x31\x70\x78","\x23\x37\x37\x37\x37\x37\x37","\x70\x61\x72\x74\x69\x64\x6F","\x73\x70\x61\x6E","\x63\x65\x69\x6C","\x66\x6C\x6F\x6F\x72","\x72\x61\x6E\x64\x6F\x6D","\x43\x6F\x73\x74\x6F\x3A\x20\x24","\x20\x51\x75\x69\x6E\x69\x65\x6C\x61\x28\x73\x29","\x64\x65\x6C\x65\x74\x65\x52\x6F\x77","\x73\x70\x6C\x69\x63\x65","\x6C\x61\x73\x74\x49\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x53\x65\x20\x62\x6F\x72\x72\x61\x72\xE1\x20\x74\x6F\x64\x6F","\x71\x75\x61\x6E\x74\x69\x74\x79\x4D","\x72\x65\x73\x75\x6C\x74\x73\x4D","\x72\x65\x6C\x6F\x61\x64","\x25\x32\x30\x25\x32\x30","\x72\x65\x70\x6C\x61\x63\x65","\x25\x30\x44","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x61\x2E\x6D\x65\x2F\x35\x32\x31\x35\x35\x37\x34\x35\x34\x33\x30\x31\x33\x3F\x74\x65\x78\x74\x3D","\x6C\x6F\x61\x64"];let res=[_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0]];let quantity=localStorage[_0xd6be[2]](_0xd6be[1]);let name=localStorage[_0xd6be[2]](_0xd6be[3]);let combinations=false;var aux;var id=0;function start(){recovername();display= document[_0xd6be[5]](_0xd6be[4]);let _0xfe82x8=document[_0xd6be[8]](_0xd6be[7])[0][_0xd6be[6]];document[_0xd6be[5]](_0xd6be[7])[_0xd6be[10]][_0xd6be[9]]= _0xfe82x8* 0.9375+ _0xd6be[11];let _0xfe82x9=document[_0xd6be[5]](_0xd6be[12]);_0xfe82x9[_0xd6be[13]]= res[_0xd6be[15]](_0xd6be[14]);if(quantity){document[_0xd6be[18]](_0xd6be[17])[_0xd6be[16]]= quantity};let _0xfe82xa=localStorage[_0xd6be[2]](_0xd6be[19]);if(_0xfe82xa){_0xfe82xa= _0xfe82xa[_0xd6be[21]](_0xd6be[20]);for(var _0xfe82xb=0;_0xfe82xb< quantity;_0xfe82xb++){if(_0xfe82xa[_0xfe82xb]&& _0xfe82xa[_0xfe82xb]!= undefined){let _0xfe82xc=display[_0xd6be[22]](_0xfe82xb);if(_0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[0][0]!= _0xd6be[23]&& _0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[0][0]!= _0xd6be[24]&& _0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[0][0]!= _0xd6be[25]){_0xfe82xa[_0xfe82xb]= _0xfe82xa[_0xfe82xb][_0xd6be[26]](1)};for(var _0xfe82xd=0;_0xfe82xd< 10;_0xfe82xd++){cell1= _0xfe82xc[_0xd6be[27]](_0xfe82xd);cell1[_0xd6be[13]]+= _0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[_0xfe82xd];cell1[_0xd6be[10]][_0xd6be[28]]= _0xd6be[29];if(_0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[_0xfe82xd][_0xd6be[30]]== 2){cell1[_0xd6be[10]][_0xd6be[31]]= _0xd6be[32]};if(_0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[_0xfe82xd][_0xd6be[30]]== 3){cell1[_0xd6be[10]][_0xd6be[31]]= _0xd6be[33]}};let _0xfe82xe=_0xfe82xc[_0xd6be[27]](10);_0xfe82xe[_0xd6be[13]]+= _0xd6be[34]+ _0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[10]+ _0xd6be[35];_0xfe82xe[_0xd6be[10]][_0xd6be[31]]= _0xd6be[32];_0xfe82xe[_0xd6be[10]][_0xd6be[36]]= _0xd6be[37];_0xfe82xe[_0xd6be[10]][_0xd6be[38]]= _0xd6be[37];_0xfe82xe[_0xd6be[10]][_0xd6be[39]]= _0xd6be[40];_0xfe82xe[_0xd6be[41]]= _0xd6be[42];_0xfe82xe[_0xd6be[43]](80,0);if(_0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[10][_0xd6be[30]]> 15){_0xfe82xe[_0xd6be[10]][_0xd6be[31]]= _0xd6be[44]}else {if(_0xfe82xa[_0xfe82xb][_0xd6be[21]](_0xd6be[14])[10][_0xd6be[30]]> 11){_0xfe82xe[_0xd6be[10]][_0xd6be[31]]= _0xd6be[33]}};let _0xfe82xf=_0xfe82xc[_0xd6be[27]](11);_0xfe82xf[_0xd6be[13]]+= _0xd6be[45];_0xfe82xf[_0xd6be[10]][_0xd6be[28]]= _0xd6be[29];_0xfe82xf[_0xd6be[10]][_0xd6be[39]]= _0xd6be[40];_0xfe82xf[_0xd6be[46]]= _0xd6be[47]+ _0xfe82xb;_0xfe82xf[_0xd6be[41]]= _0xd6be[48];_0xfe82xf[_0xd6be[52]](_0xd6be[49],function(){remove(this);this[_0xd6be[51]](this[_0xd6be[50]](true))})}else {break}};id= _0xfe82xb;document[_0xd6be[5]](_0xd6be[53])[_0xd6be[13]]= _0xd6be[54]+ quantity* 20+ _0xd6be[55]}}function updatedisplay(_0xfe82x11){let _0xfe82x12=document[_0xd6be[5]](_0xd6be[4]);let _0xfe82x13=_0xfe82x12[_0xd6be[57]](_0xd6be[56])[_0xd6be[30]];if(_0xfe82x11== 1){if(aux== undefined){aux= 0};let _0xfe82xc=_0xfe82x12[_0xd6be[22]](_0xfe82x13);for(var _0xfe82xd=0;_0xfe82xd< 10;_0xfe82xd++){cell1= _0xfe82xc[_0xd6be[27]](_0xfe82xd);cell1[_0xd6be[13]]+= res[_0xfe82xd];cell1[_0xd6be[10]][_0xd6be[28]]= _0xd6be[58];if(res[_0xfe82xd][_0xd6be[30]]== 2){cell1[_0xd6be[10]][_0xd6be[31]]= _0xd6be[32]};if(res[_0xfe82xd][_0xd6be[30]]== 3){cell1[_0xd6be[10]][_0xd6be[31]]= _0xd6be[33]}};if(aux> 1){var _0xfe82x14=_0xfe82xc[_0xd6be[27]](10);_0xfe82x14[_0xd6be[13]]+= name+ _0xd6be[59]+ aux+ _0xd6be[60]}else {var _0xfe82x14=_0xfe82xc[_0xd6be[27]](10);_0xfe82x14[_0xd6be[13]]+= name};_0xfe82x14[_0xd6be[10]][_0xd6be[31]]= _0xd6be[32];_0xfe82x14[_0xd6be[10]][_0xd6be[36]]= _0xd6be[37];_0xfe82x14[_0xd6be[10]][_0xd6be[38]]= _0xd6be[37];_0xfe82x14[_0xd6be[10]][_0xd6be[39]]= _0xd6be[40];_0xfe82x14[_0xd6be[41]]= _0xd6be[42];_0xfe82x14[_0xd6be[43]](80,0);if(name[_0xd6be[30]]> 15){_0xfe82x14[_0xd6be[10]][_0xd6be[31]]= _0xd6be[44]}else {if(name[_0xd6be[30]]> 10){_0xfe82x14[_0xd6be[10]][_0xd6be[31]]= _0xd6be[33]}};let _0xfe82xf=_0xfe82xc[_0xd6be[27]](11);_0xfe82xf[_0xd6be[13]]+= _0xd6be[45];_0xfe82xf[_0xd6be[10]][_0xd6be[28]]= _0xd6be[29];_0xfe82xf[_0xd6be[10]][_0xd6be[39]]= _0xd6be[40];_0xfe82xf[_0xd6be[46]]= _0xd6be[47]+ id;_0xfe82xf[_0xd6be[41]]= _0xd6be[48];_0xfe82xf[_0xd6be[52]](_0xd6be[49],function(){remove(this);this[_0xd6be[51]](this[_0xd6be[50]](true))});id++;aux= 1}else {if(_0xfe82x11== 2){id= 0;deleters= _0xfe82x12[_0xd6be[8]](_0xd6be[48]);for(var _0xfe82xb=0;_0xfe82xb< _0xfe82x13;_0xfe82xb++){deleters[_0xfe82xb][_0xd6be[46]]= _0xd6be[47]+ id;id++}}};document[_0xd6be[5]](_0xd6be[53])[_0xd6be[13]]= _0xd6be[54]+ quantity* 20}function selection(_0xfe82x16){let _0xfe82x17=parseInt(_0xfe82x16[_0xd6be[46]][_0xd6be[26]](1))- 1;let _0xfe82x9=document[_0xd6be[5]](_0xd6be[12]);if(!_0xfe82x16[_0xd6be[10]][_0xd6be[61]]){if(!combinations){validation(_0xfe82x16);res[_0xfe82x17]= _0xfe82x16[_0xd6be[46]][_0xd6be[26]](0,1)}else {res[_0xfe82x17]+= _0xfe82x16[_0xd6be[46]][_0xd6be[26]](0,1);res[_0xfe82x17]= res[_0xfe82x17][_0xd6be[21]](_0xd6be[0])[_0xd6be[15]](_0xd6be[62])};_0xfe82x16[_0xd6be[10]][_0xd6be[61]]= _0xd6be[63]}else {if(combinations){_0xfe82x16[_0xd6be[10]][_0xd6be[61]]= _0xd6be[62];if(res[_0xfe82x17]!= _0xd6be[0]&& res[_0xfe82x17][_0xd6be[30]]> 1){res[_0xfe82x17]= res[_0xfe82x17][_0xd6be[21]](_0xfe82x16[_0xd6be[46]][_0xd6be[26]](0,1))[_0xd6be[15]](_0xd6be[62])}else {res[_0xfe82x17]= _0xd6be[0]}}};costoactual();_0xfe82x9[_0xd6be[13]]= res[_0xd6be[15]](_0xd6be[14]);if(res[_0xd6be[15]](_0xd6be[14])[_0xd6be[30]]> 35){_0xfe82x9[_0xd6be[10]][_0xd6be[31]]= _0xd6be[64];_0xfe82x9[_0xd6be[10]][_0xd6be[65]]= _0xd6be[66]}else {_0xfe82x9[_0xd6be[10]][_0xd6be[31]]= _0xd6be[67];_0xfe82x9[_0xd6be[10]][_0xd6be[65]]= _0xd6be[68]}}function validation(_0xfe82x16){let _0xfe82x17=parseInt(_0xfe82x16[_0xd6be[46]][_0xd6be[26]](1));document[_0xd6be[5]](_0xd6be[23]+ _0xfe82x17)[_0xd6be[10]][_0xd6be[61]]= null;document[_0xd6be[5]](_0xd6be[24]+ _0xfe82x17)[_0xd6be[10]][_0xd6be[61]]= null;document[_0xd6be[5]](_0xd6be[25]+ _0xfe82x17)[_0xd6be[10]][_0xd6be[61]]= null}function number(){quantity= localStorage[_0xd6be[2]](_0xd6be[1]);if(quantity){localStorage[_0xd6be[69]](_0xd6be[1],++quantity)}else {localStorage[_0xd6be[69]](_0xd6be[1],1);quantity= localStorage[_0xd6be[2]](_0xd6be[1])};document[_0xd6be[18]](_0xd6be[17])[_0xd6be[16]]= quantity;localStorage[_0xd6be[69]](_0xd6be[3],name)}function result(){results= localStorage[_0xd6be[2]](_0xd6be[19]);name= document[_0xd6be[5]](_0xd6be[71])[_0xd6be[70]];name= name[_0xd6be[21]](_0xd6be[20])[_0xd6be[15]](_0xd6be[62]);if(results){if(aux> 1){localStorage[_0xd6be[69]](_0xd6be[19],results+ _0xd6be[55]+ res[_0xd6be[15]](_0xd6be[14])+ _0xd6be[14]+ name+ _0xd6be[59]+ aux+ _0xd6be[60]+ _0xd6be[20])}else {localStorage[_0xd6be[69]](_0xd6be[19],results+ _0xd6be[55]+ res[_0xd6be[15]](_0xd6be[14])+ _0xd6be[14]+ name+ _0xd6be[20])}}else {if(aux> 1){localStorage[_0xd6be[69]](_0xd6be[19],res[_0xd6be[15]](_0xd6be[14])+ _0xd6be[14]+ name+ _0xd6be[59]+ aux+ _0xd6be[60]+ _0xd6be[20])}else {localStorage[_0xd6be[69]](_0xd6be[19],res[_0xd6be[15]](_0xd6be[14])+ _0xd6be[14]+ name+ _0xd6be[20])}}}function save(){if(id< 150){name= document[_0xd6be[5]](_0xd6be[71])[_0xd6be[70]];if(res[_0xd6be[15]](_0xd6be[14])[_0xd6be[72]](_0xd6be[0])){alert(_0xd6be[73])}else {if(!name){alert(_0xd6be[74]);document[_0xd6be[5]](_0xd6be[71])[_0xd6be[75]]();return 0}else {if(combinations){calculate()}else {number()};result();updatedisplay(1);clean()}}}else {alert(_0xd6be[76])}}function clean(){res= [_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0],_0xd6be[0]];let _0xfe82x9=document[_0xd6be[5]](_0xd6be[12]);_0xfe82x9[_0xd6be[13]]= res[_0xd6be[15]](_0xd6be[14]);spans= document[_0xd6be[78]](_0xd6be[77]);for(var _0xfe82xb=0;_0xfe82xb< 30;_0xfe82xb++){spans[_0xfe82xb][_0xd6be[10]][_0xd6be[61]]= _0xd6be[62]};document[_0xd6be[5]](_0xd6be[79])[_0xd6be[13]]= _0xd6be[80];document[_0xd6be[5]](_0xd6be[81])[_0xd6be[13]]= _0xd6be[82];_0xfe82x9[_0xd6be[10]][_0xd6be[31]]= _0xd6be[67];_0xfe82x9[_0xd6be[10]][_0xd6be[65]]= _0xd6be[68]}function recovername(){name= localStorage[_0xd6be[2]](_0xd6be[3]);if(name!= null&& name!= _0xd6be[83]){document[_0xd6be[5]](_0xd6be[71])[_0xd6be[70]]= name}}function clearname(){document[_0xd6be[5]](_0xd6be[71])[_0xd6be[70]]= _0xd6be[62]}function allowcombination(){if(!combinations){combinations= true;document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[61]]= _0xd6be[85];document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[39]]= _0xd6be[86];document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[87]]= _0xd6be[88]}else {combinations= false;document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[61]]= _0xd6be[89];document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[39]]= _0xd6be[90];document[_0xd6be[5]](_0xd6be[84])[_0xd6be[10]][_0xd6be[87]]= _0xd6be[91];clean()}}function calculate(){aux= 1;for(var _0xfe82xb=0;_0xfe82xb< 10;_0xfe82xb++){aux*= res[_0xfe82xb][_0xd6be[30]]};quantity= localStorage[_0xd6be[2]](_0xd6be[1]);if(quantity){localStorage[_0xd6be[69]](_0xd6be[1],parseInt(quantity)+ aux);quantity= localStorage[_0xd6be[2]](_0xd6be[1])}else {localStorage[_0xd6be[69]](_0xd6be[1],aux);quantity= localStorage[_0xd6be[2]](_0xd6be[1])};document[_0xd6be[18]](_0xd6be[17])[_0xd6be[16]]= quantity;localStorage[_0xd6be[69]](_0xd6be[3],name)}function random(){clean();let _0xfe82x9=document[_0xd6be[5]](_0xd6be[12]);let _0xfe82x22=document[_0xd6be[8]](_0xd6be[92]);for(var _0xfe82xb=0;_0xfe82xb< 10;_0xfe82xb++){var _0xfe82x23=getRandomInt(0,2);_0xfe82x22[_0xfe82xb][_0xd6be[57]](_0xd6be[93])[_0xfe82x23][_0xd6be[10]][_0xd6be[61]]= _0xd6be[63];res[_0xfe82xb]= [_0xd6be[23],_0xd6be[24],_0xd6be[25]][_0xfe82x23]};_0xfe82x9[_0xd6be[13]]= res[_0xd6be[15]](_0xd6be[14]);costoactual()}function getRandomInt(_0xfe82x25,_0xfe82x26){_0xfe82x25= Math[_0xd6be[94]](_0xfe82x25);_0xfe82x26= Math[_0xd6be[95]](_0xfe82x26);return Math[_0xd6be[95]](Math[_0xd6be[96]]()* (_0xfe82x26- _0xfe82x25+ 1))+ _0xfe82x25}function costoactual(){if(true){let _0xfe82x28=1;for(var _0xfe82xb=0;_0xfe82xb< 10;_0xfe82xb++){_0xfe82x28*= res[_0xfe82xb][_0xd6be[30]]};document[_0xd6be[5]](_0xd6be[79])[_0xd6be[13]]= _0xd6be[97]+ _0xfe82x28* 20;document[_0xd6be[5]](_0xd6be[81])[_0xd6be[13]]= _0xfe82x28+ _0xd6be[98]}}function remove(_0xfe82x2a){display= document[_0xd6be[5]](_0xd6be[4]);eindex= _0xfe82x2a[_0xd6be[46]][_0xd6be[26]](1);tr= display[_0xd6be[57]](_0xd6be[56])[eindex];display[_0xd6be[99]](eindex);results= localStorage[_0xd6be[2]](_0xd6be[19]);results= results[_0xd6be[21]](_0xd6be[20]);removing= results[eindex][_0xd6be[21]](_0xd6be[14]);if(removing[0][0]!= _0xd6be[23]&& removing[0][0]!= _0xd6be[24]&& removing[0][0]!= _0xd6be[25]){removing[0]= removing[0][_0xd6be[26]](1)};let _0xfe82x2b=1;for(var _0xfe82xb=0;_0xfe82xb< 10;_0xfe82xb++){_0xfe82x2b*= removing[_0xfe82xb][_0xd6be[30]]};quantity-= _0xfe82x2b;localStorage[_0xd6be[69]](_0xd6be[1],quantity);results[_0xd6be[100]](eindex,1);results= results[_0xd6be[15]](_0xd6be[20]);localStorage[_0xd6be[69]](_0xd6be[19],results);document[_0xd6be[18]](_0xd6be[17])[_0xd6be[16]]= quantity;document[_0xd6be[5]](_0xd6be[53])[_0xd6be[13]]= _0xd6be[54]+ quantity* 20+ _0xd6be[55];updatedisplay(2)}function removeLastLine(){if(resultsx[_0xd6be[101]](_0xd6be[55])> 0){return resultsx[_0xd6be[102]](0,resultsx[_0xd6be[101]](_0xd6be[55]))}else {return resultsx}}function deleteall(){if(confirm(_0xd6be[103])){localStorage[_0xd6be[69]](_0xd6be[104],_0xd6be[62]);localStorage[_0xd6be[69]](_0xd6be[105],_0xd6be[62]);localStorage[_0xd6be[69]](_0xd6be[1],_0xd6be[62]);localStorage[_0xd6be[69]](_0xd6be[19],_0xd6be[62]);location[_0xd6be[106]]()}}function send(){if(!quantity|| quantity< 1){save()};if(quantity> 0){let _0xfe82x2f=res[_0xd6be[15]](_0xd6be[107]);_0xfe82x2f= encodeURI(localStorage[_0xd6be[2]](_0xd6be[19]));_0xfe82x2f= _0xfe82x2f[_0xd6be[21]](_0xd6be[20])[_0xd6be[15]](_0xd6be[109])[_0xd6be[108]](/#/g,_0xd6be[62]);window[_0xd6be[111]][_0xd6be[110]]= _0xd6be[112]+ _0xfe82x2f}}window[_0xd6be[52]](_0xd6be[113],start,false)
+let res = ['_','_','_','_','_','_','_','_','_','_'];
+
+var quantStorage = "quantity10m";
+var resultStorage = "results10m";
+var aliasStorage = "aliasM";
+
+var pricem = 20;  //replace *20
+var telm = "5213325365796";
+var suspIndexm = 1;
+
+var nPartidos = 10;
+var partidoSup = true;
+
+var quantity = localStorage.getItem(quantStorage);
+var name = localStorage.getItem(aliasStorage);
+var combinations = false;
+var aux;
+var id = 0;
+
+function start(){
+    recovername();
+    if (suspIndexm<=res.length)
+        res[suspIndexm] = 'X';
+    display = document.getElementById("display");
+    let width = document.getElementsByClassName('quiniela')[0].offsetWidth;
+    document.getElementById("quiniela").style.height = width*0.9375 + "px";
+    let container = document.getElementById("text");
+    container.innerHTML = res.join("\xa0\xa0");
+    if (quantity)
+        document.querySelector('.botonenviar span').textContent = quantity;
+    let results = localStorage.getItem(resultStorage);
+    if (results){
+        results = results.split("*");
+        for (var i = 0; i < quantity; i++){
+            if (results[i] && results[i] != undefined){
+
+                let fila = display.insertRow(i);
+
+                if (results[i].split("\xa0\xa0")[0][0]!="L" && results[i].split("\xa0\xa0")[0][0]!="E" && results[i].split("\xa0\xa0")[0][0]!="V")
+                	results[i] = results[i].slice(1);
+
+			    for (var j =0; j < nPartidos; j++) {
+			    	cell1 = fila.insertCell(j)
+                    if (j==suspIndexm)
+                        cell1.innerHTML += 'X';
+			    	cell1.innerHTML += results[i].split("\xa0\xa0")[j];
+			    	cell1.style.width = "6.3%";
+			    	if (results[i].split("\xa0\xa0")[j].length == 2)
+			    		cell1.style.fontSize = "small";
+			    	if (results[i].split("\xa0\xa0")[j].length == 3)
+			    		cell1.style.fontSize = "x-small";
+			    }
+
+			  	let cell2 = fila.insertCell(nPartidos);
+			  	cell2.innerHTML += "<pre>" +results[i].split("\xa0\xa0")[nPartidos] + "</pre>";
+			  	cell2.style.fontSize = "small";
+			  	cell2.style.overflow = "hidden";
+			  	cell2.style.overflowY = "hidden";
+			  	cell2.style.border = "none";
+			  	cell2.className = "cellname";
+			  	cell2.scrollTo(80,0);
+
+			  	if(results[i].split("\xa0\xa0")[nPartidos].length > 15)
+			  		cell2.style.fontSize = "xx-small";
+			  	else if(results[i].split("\xa0\xa0")[nPartidos].length > 11)
+			  		cell2.style.fontSize = "x-small";
+
+			  	let cell3 = fila.insertCell(nPartidos+1);
+			  	cell3.innerHTML += '<ion-icon name="close-circle" style="color:rgb(120,0,0);"></ion-icon>';
+			  	cell3.style.width = "6.3%";
+			  	cell3.style.border = "none";
+			  	cell3.id = "x" + i;
+                cell3.className = "deleter"
+			  	cell3.addEventListener('click', function(){remove(this);  this.replaceWith(this.cloneNode(true));});
+			} 
+            else
+                break;
+        }
+        id = i;
+    document.getElementById("total").innerHTML = "Total: $" + quantity*pricem +"\n";
+	}  
+}
+
+function updatedisplay(modo){
+
+    let display = document.getElementById("display");
+    let lastIndex = display.getElementsByTagName("tr").length;
+
+    if (modo == 1){
+        if (aux == undefined)
+            aux=0;
+        
+        let fila = display.insertRow(lastIndex);
+
+        for (var j =0; j < nPartidos; j++) {
+        	cell1 = fila.insertCell(j)
+        	cell1.innerHTML += res[j];
+        	cell1.style.width = "7%";
+        	if (res[j].length == 2)
+        		cell1.style.fontSize = "small";
+        	if (res[j].length == 3)
+        		cell1.style.fontSize = "x-small";
+        }
+
+        if (aux>1){
+    		var cellname = fila.insertCell(nPartidos);
+    		cellname.innerHTML += name + " (" + aux + ")";}
+    	else{
+    		var cellname = fila.insertCell(nPartidos);
+    		cellname.innerHTML += name;}
+
+      	cellname.style.fontSize = "small";
+      	cellname.style.overflow = "hidden";
+      	cellname.style.overflowY = "hidden";
+      	cellname.style.border = "none";
+      	cellname.className = "cellname";
+      	cellname.scrollTo(80,0);
+
+    	if(name.length > 15)
+      		cellname.style.fontSize = "xx-small";
+      	else if(name.length > nPartidos)
+      		cellname.style.fontSize = "x-small";
+
+    	let cell3 = fila.insertCell(nPartidos+1);
+      	cell3.innerHTML += '<ion-icon name="close-circle" style="color:rgb(120,0,0);"></ion-icon>';
+      	cell3.style.width = "6.3%";
+      	cell3.style.border = "none";
+      	cell3.id = "x" + id;
+        cell3.className = "deleter";
+      	cell3.addEventListener('click', function(){remove(this); this.replaceWith(this.cloneNode(true));});
+      	id++;
+        aux = 1;
+        //cell1.innerHTML += res.join("\xa0\xa0") + "\xa0\xa0" + name + " (" + aux + ")" + "*\xa0\xa0";
+    }
+    else if (modo == 2){
+        id = 0;
+        deleters = display.getElementsByClassName("deleter");
+        for (var i = 0; i < lastIndex ;i++) {
+            deleters[i].id = "x" + id;
+            id++;
+        }
+
+    }
+    document.getElementById("total").innerHTML = "Total: $" + quantity*pricem;
+}
+
+function selection(element){ 		//Pinta la casilla y actualiza el texto de la quiniela.
+    let index = parseInt(element.id.slice(1)) - 1;
+    if (index==suspIndexm) return;
+    let container = document.getElementById("text");
+    if (!element.style.backgroundColor){
+        if (!combinations){
+            validation(element);
+            res[index] = element.id.slice(0,1);
+            }
+        else{
+            res[index] += element.id.slice(0,1);
+            res[index] = res[index].split('_').join('');
+        }
+        element.style.backgroundColor = "rgb(250, 30, 30)";
+    }
+    else{
+        if(combinations){
+        element.style.backgroundColor = "";
+        //console.log(res[index].length);
+        if (res[index] != "_" && res[index].length>1)
+            res[index] = res[index].split(element.id.slice(0,1)).join('');
+        else    
+            res[index] = "_";
+        }
+    }
+    costoactual();
+    if (!partidoSup)
+        container.innerHTML = res.join("\xa0\xa0");
+    else
+        container.innerHTML = res.slice(0,nPartidos-1).join("\xa0\xa0") + "<span id='supSpan'>\xa0\xa0" + res[nPartidos-1] + "</span>";
+    //console.log(res.join("\xa0\xa0").length);
+    if (res.join("\xa0\xa0").length>35){
+        container.style.fontSize = "larger";
+        container.style.padding = "23px";
+    }
+    else{
+        container.style.fontSize = "x-large";
+        container.style.padding = "20px";
+    }
+}
+
+function validation(element){	 //Despinta todas las casillas y asigna el index con el número de la casilla seleccionada.
+    let index = parseInt(element.id.slice(1));
+    document.getElementById("L"+index).style.backgroundColor = null;
+    document.getElementById("E"+index).style.backgroundColor = null;
+    document.getElementById("V"+index).style.backgroundColor = null;
+}
+
+function number(){ 				//Actualiza el número del boton "Enviar"
+    quantity = localStorage.getItem(quantStorage);
+    if (quantity)
+        localStorage.setItem(quantStorage, ++quantity);
+    else{
+        localStorage.setItem(quantStorage, 1);
+        quantity = localStorage.getItem(quantStorage);}
+    document.querySelector('.botonenviar span').textContent = quantity;
+    localStorage.setItem(aliasStorage, name);
+}
+
+function result(){ 				//Actualiza el localstorage cuando se añade una nueva quiniela
+    results = localStorage.getItem(resultStorage);
+    name = document.getElementById("nombre").value;
+    name  = name.split('*').join('');
+    if (results){
+        if (aux > 1)
+        localStorage.setItem(resultStorage, results + "\n" + res.join("\xa0\xa0") + "\xa0\xa0" + name + " (" + aux + ")" + "*");
+        else
+            localStorage.setItem(resultStorage, results + "\n" + res.join("\xa0\xa0") + "\xa0\xa0" + name + "*");
+    }
+    else
+    {
+        if (aux > 1)
+        localStorage.setItem(resultStorage,res.join("\xa0\xa0") + "\xa0\xa0" + name + " (" + aux + ")" +  "*");
+        else    
+            localStorage.setItem(resultStorage,res.join("\xa0\xa0") + "\xa0\xa0" + name+ "*");
+    }       
+}
+
+function save(){				//Se añade la quiniela actual a la lista 
+	if(id < 150){
+	    name = document.getElementById("nombre").value;
+	    if (res.join("\xa0\xa0").includes("_"))
+	        alert("Debes llenar todos los partidos");
+	    else if (!name){
+	        alert("Debes elegir un nombre");
+	        document.getElementById("nombre").focus();
+	        return 0;}
+	    else{
+	        if (combinations)
+	            calculate();
+	        else
+	            number();
+	        result();
+	        updatedisplay(1);
+	        clean();}
+    }
+    else
+    	alert("Envía tus quinielas guardadas antes de agregar más");
+}
+
+function clean(){				//Boton para limpiar la quinela
+    res = ['_','_','_','_','_','_','_','_','_','_'];
+    if (suspIndexm<=res.length)
+        res[suspIndexm] = 'X';
+    let container = document.getElementById("text");
+    container.innerHTML = res.join("\xa0\xa0");
+    spans = document.querySelectorAll(".quiniela span");
+    for (var i=0; i<nPartidos*3;i++) //30
+        spans[i].style.backgroundColor = "";
+    document.getElementById("costo").innerHTML = "Costo: $0";
+    document.getElementById("numquinielas").innerHTML = "0 Quiniela(s)";
+    container.style.fontSize = "x-large";
+    container.style.padding = "20px";
+}
+
+//UPDATEDISPLAY
+
+function recovername(){
+    name = localStorage.getItem(aliasStorage);
+    if (name !=  null && name !="null")
+        document.getElementById("nombre").value = name;
+}
+
+function clearname(){
+    document.getElementById("nombre").value = "";
+}
+
+function allowcombination(){
+    if (!combinations) 
+    {
+        combinations = true; /*confirm("¿Desea registrar quinielas multiples?");*/
+        document.getElementById("checkcombinaciones").style.backgroundColor = "rgb(0,117,255)";
+        document.getElementById("checkcombinaciones").style.border = "black solid 1px";
+        document.getElementById("checkcombinaciones").style.color = "white";
+    }
+    else
+    {
+        combinations= false;
+        document.getElementById("checkcombinaciones").style.backgroundColor = "rgb(255,255,255,0.35)";
+        document.getElementById("checkcombinaciones").style.border = "#777777 solid 1px";
+        document.getElementById("checkcombinaciones").style.color = "#777777";
+        clean();
+    }
+}
+
+function calculate(){
+    aux = 1;
+    for (var i=0;i<nPartidos;i++){
+        aux*= res[i].length;
+    }
+    quantity = localStorage.getItem(quantStorage);
+    if (quantity){
+        localStorage.setItem(quantStorage, parseInt(quantity)+aux);
+        quantity = localStorage.getItem(quantStorage);}
+    else{
+        localStorage.setItem(quantStorage, aux);
+        quantity = localStorage.getItem(quantStorage);}
+    document.querySelector('.botonenviar span').textContent = quantity;
+    localStorage.setItem(aliasStorage, name);
+}
+
+function random(){
+    clean();
+    let container = document.getElementById("text");
+    let partidos = document.getElementsByClassName("partido");
+    for (var i = 0; i < nPartidos; i++){
+        var r = getRandomInt(0,2);
+        partidos[i].getElementsByTagName("span")[r].style.backgroundColor = "rgb(250, 30, 30)";
+        res[i] = ["L","E","V"][r];
+    }
+    if (!partidoSup)
+        container.innerHTML = res.join("\xa0\xa0");
+    else{
+        container.innerHTML = res.slice(0,nPartidos-1).join("\xa0\xa0") + "<span id='supSpan'>\xa0\xa0" + res[nPartidos-1] + "</span>";
+        //partidos[nPartidos-1].getElementsByTagName("span")[r].style.backgroundColor = "gray";
+    }
+    costoactual();
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function costoactual(){
+    if (true){
+        let aux2 = 1;
+        for (var i=0;i<nPartidos;i++){
+             aux2*= res[i].length;
+        }
+        document.getElementById("costo").innerHTML = "Costo: $" + aux2*pricem;
+        document.getElementById("numquinielas").innerHTML = aux2 + " Quiniela(s)";
+    }
+}
+function remove(e){
+	display = document.getElementById("display");
+	////console.log(e.id.slice(1));
+	////console.log(display.getElementsByTagName("tr"));
+	eindex = e.id.slice(1);
+	tr = display.getElementsByTagName("tr")[eindex];
+
+	display.deleteRow(eindex);
+
+
+    results = localStorage.getItem(resultStorage);
+    results = results.split("*");
+
+	removing = results[eindex].split("\xa0\xa0");
+	////console.log("removing",removing);
+	if (removing[0][0]!="L" && removing[0][0]!="E" && removing[0][0]!="V")
+        removing[0] = removing[0].slice(1);
+	let aux3 = 1;
+    for (var i=0;i<nPartidos;i++)
+        aux3*= removing[i].length;
+    quantity -= aux3;
+    localStorage.setItem(quantStorage,quantity);
+	results.splice(eindex,1);
+    ////console.log(results);
+    results = results.join("*");
+    localStorage.setItem(resultStorage,results);
+
+    document.querySelector('.botonenviar span').textContent = quantity;
+    document.getElementById("total").innerHTML = "Total: $" + quantity*pricem +"\n";
+    updatedisplay(2);
+
+}
+
+function removeLastLine(){
+    if(resultsx.lastIndexOf("\n")>0) {
+        return resultsx.substring(0, resultsx.lastIndexOf("\n"));
+    } else {
+        return resultsx;
+    }
+}
+
+function deleteall(){
+    if(confirm("Se borrará todo"))
+        {localStorage.setItem("quantityM","");
+        localStorage.setItem("resultsM","");
+        localStorage.setItem(quantStorage,"");
+        localStorage.setItem(resultStorage,"");
+        location.reload();}
+}
+
+function send(){				//Envia la quiniela al whatsapp 
+    if (!quantity || quantity < 1)
+        save();
+    if (quantity > 0){
+    let whatsapptext = res.join("%20%20")
+    whatsapptext = encodeURI(localStorage.getItem(resultStorage));
+    whatsapptext = whatsapptext.split('*').join('%0D').replace(/#/g,"");
+    window.location.href = "https://wa.me/"+telm+"?text="+whatsapptext;}
+}
+
+window.addEventListener("load",start,false);
